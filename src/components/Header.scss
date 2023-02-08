@@ -1,0 +1,26 @@
+@use "../styles/mixins" as *;
+
+header {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include breakpoint("small") {
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .logo {
+      width: 3rem;
+    }
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

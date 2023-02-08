@@ -1,0 +1,14 @@
+---
+import person from '../assets/person.svg'
+import Button from './Button.astro';
+import './Hero.scss'
+---
+
+<section id="hero" class="container">
+    <img src={person} alt="character">
+    <h1>Ahmed Said</h1>
+    <h2>A Frontend Developer</h2>
+    <div class="cta-container">
+        <Button text='Resume'/>
+    </div>
+</section>

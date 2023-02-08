@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+:root {
+  --bg-primary: hsl(240, 39%, 20%);
+  --bg-gradient: linear-gradient(180deg, #191a43 0%, #442d85 100%);
+
+  --text: #fff;
+  --text-gray: hsla(0, 0%, 100%, 0.7);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text);
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.container {
+  max-width: 70rem;
+  margin-inline: auto;
+  padding: 1rem;
+}

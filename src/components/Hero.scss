@@ -1,0 +1,33 @@
+#hero {
+  text-align: center;
+
+  img {
+    width: 12rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem);
+    background: -webkit-linear-gradient(
+      45deg,
+      rgb(247, 68, 116) 30%,
+      rgb(0, 132, 255) 70%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .cta-container {
+    margin-top: 1.5rem;
+  }
+}
